@@ -5,6 +5,8 @@ using namespace std;
 
 static int solution(double flo = 0) {
     
+
+    //  static_cast를 활용한 풀이.
     int answer = static_cast<int>(flo);
 
     return answer;
